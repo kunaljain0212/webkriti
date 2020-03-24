@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.left{
+    width: 50%;
+    height: 100vh;
+}
+.right{  width: 100%;
+    height: 100vh;
+    background-color:rgb(241, 237, 237);
+}
+.logo{
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+}
+.logoimg{
+    height: 211px;
+    width: 172px;
+    margin: auto;
+    filter: invert(100%);
+    padding-top: 96px;
+    display: block;
+}
+.primary{
+    text-align: center;
+    color: blanchedalmond;
+    font-family: 'Fjalla One', sans-serif;
+}
+.textbox{
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    
+    
+}
+.secondary{
+    text-align: center;
+    padding-top: 3px;
+    color: blanchedalmond;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.item{
+    list-style: none;
+    padding: 18px;
+    font-size: 1.1rem;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.item a:hover , .item a.active{
+    color: grey;
+}
+.content{
+    height: 50vh;
+    width: 96%;
+    padding-bottom: 11px;
+    padding-top: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.welcome{
+    padding-left: 67px;
+    padding-right: 20px;
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family: 'Staatliches', cursive;
+}
+.weltext{
+    padding-left: 67px;
+    padding-right: 25px;
+    font-size: 14px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+.contactus{
+    width: 96%;
+    padding: 14px;
+    padding-top: 53px;
+    height: 200px;
+}
+.imgcontainer{
+    display: flex;
+    justify-content: center;
+}
+.social{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+.imgmedia{
+    width: 20px;
+    padding: 38px;
+}
+.contact{
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
